@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    position: relative;
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px;
+}
+.nav img{
+    height: 50%;
+    width: 10%;
+    transition: transform 0.3 ease;
+}
+.nav img:hover{
+    transform: scale(1.3);
+}
+.navcenter{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navcenter h2:hover{
+text-decoration: underline;
+color: blue;
+}
+.navleft{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navleft .botton{
+    border: 2px solid blue;
+     padding: 4px 40px;
+     border-radius: 10px;
+     background-color: rgba(0, 0, 255, 0.698);
+     color: white;
+     
+}
+
+.navleft .botton:hover{
+    
+     background-color: white;
+     color: blue;
+}
+.part1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+     height: 73%;
+     width: 100%;
+     
+    background-size: cover;
+    background-position: center;
+}
+.part1 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.picture1{
+    display: flex;
+    flex-direction: column;
+    
+     padding: 40px;
+    text-transform: capitalize;
+   
+}
+.picture1 h1{
+    margin-top: 8px;
+   
+    font-weight: 600;
+
+}
+.picture2{
+    overflow: hidden;
+    
+}
+.button{
+    
+    transition: transform 0.3 ease;
+}
+.button:hover{
+    transform: scale(1.3);
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 30%;
+    width: 100%;
+    background-color: #6674ccb1;
+    border-color: #6674CC;
+    color: white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    height: 80%;
+    width: 70%;
+    
+}
+.text h5{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+   font-size: 40px;
+   font-weight: 400;
+}
+.text2{
+    text-align: center;
+    margin-top: 30px;
+    
+    display: flex;
+   align-items: center;
+   gap: 130px;
+    
+}
